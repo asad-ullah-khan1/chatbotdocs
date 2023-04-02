@@ -3,7 +3,7 @@ import os
 from gpt_index import SimpleDirectoryReader, ServiceContext , GPTListIndex, GPTSimpleVectorIndex,  PromptHelper,LLMPredictor
 
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "your-api-key-goes-here"
 
 def construct_index(directory_path):
     max_input_size = 4096
