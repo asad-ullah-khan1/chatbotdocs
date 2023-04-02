@@ -7,3 +7,5 @@ content/
 
 # ignore index.json
 index.json
+
+.DS_Store
