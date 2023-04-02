@@ -1,9 +1,9 @@
 from langchain import OpenAI
 import os
 from gpt_index import SimpleDirectoryReader, ServiceContext , GPTListIndex, GPTSimpleVectorIndex,  PromptHelper,LLMPredictor
+import streamlit as st
 
-
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = st.secrets['OPENAI_API_KEY']
 
 def construct_index(directory_path):
     max_input_size = 4096
