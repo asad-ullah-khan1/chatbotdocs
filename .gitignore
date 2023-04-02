@@ -1,11 +1,2 @@
-# ignore ALL .log files
-*.log
-
-# ignore ALL files in ANY directory named temp
-.streamlit/
-content/
-
-# ignore index.json
-index.json
-
-.DS_Store
+hello.py
+dont.txt
